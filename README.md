@@ -1,10 +1,10 @@
 # Flask-WangEditor
 
-wangEditor integration for Flask, including image upload, code syntax highlight and more.
+wangEditor integration for Flask,a more simple and concies editor
 
 ## Links
 
-* [Documentation](#todo)
+* [Documentation #!todo](#todo)
 
 
 ## License
