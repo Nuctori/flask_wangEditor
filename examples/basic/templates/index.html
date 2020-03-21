@@ -7,7 +7,7 @@
 <body>
 	<div class="warpper" style="width: 700px; margin: auto">
 		<h1>Flask-CKEditor Demo: Basic</h1>
-		<form method="post">
+	<form onclick='{{ wangeditor.clean_auto_save() }}' method="post">
 			{{ form.csrf_token }}
 			{{ form.title.label }}<br>
 			{{ form.title }}<br><br>
@@ -18,7 +18,7 @@
 		</form>
 	</div>
 	{{ wangeditor.load() }}
-	{{ wangeditor.config(name='body') }}
+	{{ wangeditor.config(name='body',autoSave=True) }}
 </body>
 </html>
 
