@@ -14,7 +14,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='Flask-wangEditor',
-    version='0.0.3',
+    version='0.0.3.1',
     url='https://github.com/Nuctori/flask_wangEditor',
     license='MIT',
     author='Nuctori',

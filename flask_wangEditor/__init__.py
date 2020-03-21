@@ -117,7 +117,7 @@ class _WangEditor(object):
         '''
         清除编辑器自动保存在本地的数据，一般在表单的onclick事件中使用
         '''
-        return Markup('localStorage.removeItem(window.location.href)')
+        return 'localStorage.removeItem(window.location.href)'
         
 
 
